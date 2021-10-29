@@ -1,0 +1,16 @@
+{
+    "name": "php_1v1/bytedance",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Php1v1\\Bytedance\\": "src/"
+        },
+        "files": ["function.php"]
+    }
+}
